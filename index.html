@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal profile page of Adithya Ajith, B.Tech IT student">
+  <meta name="description" content="Personal profile page of Adithya Ajith, B.Tech IT student and MERN stack developer">
   <title>Adithya Ajith | Personal Profile</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +17,10 @@
       <a href="#home" class="logo">AA</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#hobbies">Hobbies</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -34,8 +36,8 @@
       <div class="hero-text">
         <p class="greeting">Hello, I am</p>
         <h1>Adithya Ajith</h1>
-        <p class="tagline">B.Tech Information Technology Student</p>
-        <p class="intro">A 20-year-old IT undergraduate who enjoys building things for the web and spends his free time on the football pitch.</p>
+        <p class="tagline">B.Tech IT Student &middot; MERN Stack Developer</p>
+        <p class="intro">A 20-year-old third-year Information Technology undergraduate at Manipal Institute of Technology who builds full-stack web applications with React, Next.js, Node.js and MongoDB.</p>
         <a href="#contact" class="btn">Get in Touch</a>
       </div>
     </section>
@@ -43,8 +45,25 @@
     <!-- About Me -->
     <section id="about" class="section">
       <h2>About Me</h2>
-      <p>I am Adithya Ajith, a 20-year-old undergraduate pursuing a Bachelor of Technology in Information Technology. I am curious about how technology works behind the scenes, from the websites we use every day to the systems that power them, and I enjoy turning ideas into working projects.</p>
-      <p>Right now I am building a strong foundation in programming and web development. My goal is to keep learning, work on real-world projects, and grow into a skilled IT professional. Off the screen, you will usually find me playing football, which keeps me active and has taught me a lot about teamwork.</p>
+      <p>I am a third-year Information Technology undergraduate with hands-on full-stack development experience gained through a MERN stack internship at Bizlin Technologies. I enjoy building responsive user interfaces with React and Next.js and developing REST APIs with Node.js, Express and MongoDB.</p>
+      <p>I am known for learning quickly, adapting to changing requirements and delivering tasks on time. I am currently looking for developer internships and project opportunities to build on this foundation. Away from the keyboard, you will usually find me playing football.</p>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="card">
+          <h3>MERN Stack Developer Intern</h3>
+          <p class="meta">Bizlin Technologies, Alappuzha, Kerala &middot; Jun 2026 – Jul 2026</p>
+          <ul class="points">
+            <li>Developed responsive front-end interfaces and reusable components using React.js and Next.js.</li>
+            <li>Implemented full CRUD functionality in a Next.js application, wiring UI actions to back-end data operations.</li>
+            <li>Built and integrated RESTful APIs using Node.js, Express.js and MongoDB.</li>
+            <li>Delivered assigned features on schedule; performance rated highly satisfactory and commendable in the internship completion letter.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <!-- Education -->
@@ -52,9 +71,13 @@
       <h2>Education</h2>
       <div class="timeline">
         <article class="card">
-          <h3>Bachelor of Technology (B.Tech) in Information Technology</h3>
-          <p class="meta">Undergraduate &middot; Currently pursuing</p>
-          <p>Studying programming, web technologies, databases, computer networks and software development.</p>
+          <h3>B.Tech in Information Technology</h3>
+          <p class="meta">Manipal Institute of Technology &middot; 2024 – Present</p>
+          <p>Current CGPA: <strong>7.67</strong></p>
+        </article>
+        <article class="card">
+          <h3>Certification: Introduction to Artificial Intelligence (AI)</h3>
+          <p class="meta">IBM (Coursera) &middot; Jul 2025</p>
         </article>
       </div>
     </section>
@@ -64,25 +87,61 @@
       <h2>Skills</h2>
       <div class="skills-grid">
         <div class="card">
-          <h3>Technical</h3>
+          <h3>Web Development</h3>
           <ul class="tags">
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>REST APIs</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>C Programming</li>
-            <li>Git &amp; GitHub</li>
           </ul>
         </div>
         <div class="card">
-          <h3>Soft Skills</h3>
+          <h3>Programming Languages</h3>
           <ul class="tags">
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Problem Solving</li>
-            <li>Quick Learner</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
           </ul>
         </div>
+        <div class="card">
+          <h3>Languages Spoken</h3>
+          <ul class="tags">
+            <li>English</li>
+            <li>Malayalam</li>
+            <li>Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="skills-grid">
+        <article class="card">
+          <h3>Deskflow Helpdesk (Support Center)</h3>
+          <p class="meta">Next.js, Node.js, Express.js, MongoDB, TypeScript, Tailwind CSS, JWT</p>
+          <ul class="points">
+            <li>Full-stack ticketing and helpdesk application built with the Next.js App Router.</li>
+            <li>Role-based JWT authentication with access/refresh token rotation and secure cookies.</li>
+            <li>Express/Mongoose APIs with server-side pagination, sorting and search.</li>
+            <li>Dynamic ticket forms and responsive admin dashboards.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Async Standup Bot</h3>
+          <p class="meta">Next.js, React, Node.js, Express.js, TypeScript, MongoDB, Socket.io, Node-Cron, JWT</p>
+          <ul class="points">
+            <li>Real-time team collaboration dashboard with live notifications over Socket.io.</li>
+            <li>Scheduled background jobs with node-cron for daily standup reminders and digests.</li>
+            <li>JWT authentication in HTTP-only cookies with role-based access for User, Admin and Super Admin.</li>
+          </ul>
+        </article>
       </div>
     </section>
 
@@ -90,9 +149,9 @@
     <section id="hobbies" class="section">
       <h2>Interests &amp; Hobbies</h2>
       <ul class="hobby-list">
-        <li class="card"><span class="icon" aria-hidden="true">⚽</span>Playing Football</li>
-        <li class="card"><span class="icon" aria-hidden="true">🏆</span>Following Football Leagues</li>
-        <li class="card"><span class="icon" aria-hidden="true">💻</span>Exploring New Technology</li>
+        <li class="card"><span class="icon" aria-hidden="true">⚽</span>Football</li>
+        <li class="card"><span class="icon" aria-hidden="true">💻</span>Full-Stack Web Development</li>
+        <li class="card"><span class="icon" aria-hidden="true">🤖</span>Artificial Intelligence</li>
       </ul>
     </section>
 
@@ -101,6 +160,7 @@
       <h2>Contact Me</h2>
       <address class="contact-list">
         <a class="card" href="mailto:adithyaajith708@gmail.com"><span class="label">Email</span>adithyaajith708@gmail.com</a>
+        <a class="card" href="https://www.linkedin.com/in/adithya-ajith-b0053939a/" target="_blank" rel="noopener"><span class="label">LinkedIn</span>linkedin.com/in/adithya-ajith</a>
         <a class="card" href="https://github.com/adithyaajith708-01" target="_blank" rel="noopener"><span class="label">GitHub</span>github.com/adithyaajith708-01</a>
       </address>
     </section>
